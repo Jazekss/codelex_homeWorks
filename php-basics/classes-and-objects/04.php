@@ -9,32 +9,35 @@ class Movie
 		$this->studio = $studio;
 		$this->rating = $rating;
 	}
-	public function GetPG(): void {
-
-	}
 }
-class Movies
+class PG
 {
 	public array $movies = [];
 	public function addMovie(Movie $movie): void{
 		$this->movies[] = $movie;
 	}
-	public function GetPG(){
-		return $this->movies;
+	public function getPG(){
+		foreach ($this->movies as $movie) {
+			if ($movie->rating == "PG"){
+				$this->moviePG [] = $movie;
+			}
+		}
+		return $this->moviePG;
 	}
 }
 $a = new Movie('','','');
-$movies = new Movies();
+$movies = new PG();
 $casino = new Movie('Casino Royale', 'Eon Productions', 'PG­13');
 $movies->addMovie($casino);
 $glass = new Movie('Glass', 'Buena Vista International', 'PG­13');
-$movies = new Movies($glass);
+$movies->addMovie($glass);
 $spider = new Movie('Spider-Man: Into the Spider-Verse', 'Columbia Pictures', 'PG');
-$movies = new Movies($spider);
+$movies->addMovie($spider);
 
-var_dump($movies->GetPG());
-
-
+$movies->getPG();
+foreach ($movies->getPG() as $movie) {
+	echo $movie->title . PHP_EOL;
+}
 
 
 //Write a method GetPG, which takes an array of base type Movie as its argument,
