@@ -1,11 +1,8 @@
 <?php
 class FuelTank
 {
-	public int $fuelAmount;
+	public int $fuelAmount = 0;
 	private int $fuelCapacity = 70;
-	public function __construct(int $fuelAmount){
-		$this->fuelAmount = $fuelAmount;
-	}
 	public function getFuelAmount(): int{
 		return $this->fuelAmount;
 	}
@@ -18,20 +15,24 @@ class FuelTank
 		}
 		return $this->fuelAmount;
 	}
+	public function fuelPerKm(Odometer $odometer): void{
+		$this->fuelAmount -= 1;
+		$odometer->addMileage(8);
+	}
 }
 class Odometer extends FuelTank
 {
-	private string $fuel;
-	public function kmPerLiter( object $fuelTank): int{
-		$perLiter = $fuelTank->getFuelAmount() * 10;
-		return $this->perLiter = $perLiter * 10;
+	private int $startMileage = 0;
+	public function kmPerLiter(object $fuelTank): int	{
+		return $perLiter = $fuelTank->getFuelAmount() * 8;
 	}
 }
-$fuelTank = new FuelTank(35);
-echo "Your car fuel tank capacity is 70l, there is {$fuelTank->getFuelAmount()}l of fuel\n";
-$fuelTank->addFuel(readline('Add liters of fuel:'));
-//echo $fuelAmount;
+$fuelTank = new FuelTank();
+$odometer = new Odometer();
+
+echo "Your car fuel tank capacity is 70l\n";
+$filledFuel = $fuelTank->addFuel(readline('Add fuel to go:'));
 echo "You have " . $fuelTank->getFuelAmount() . "l of fuel, ready to go\n";
-sleep(1);
-$fuelTank = new Odometer($fuelTank->getFuelAmount());
-echo "You drive {$fuelTank->kmPerLiter($fuelTank)}km with {$fuelTank->getFuelAmount()}l of fuel\n";
+
+echo "You drive {$odometer->kmPerLiter($fuelTank)}km with {$filledFuel}l of fuel /car fuel gauge is 8l/100km\n";
+
