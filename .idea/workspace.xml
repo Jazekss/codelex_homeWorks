@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="035498b3-4202-494d-a949-269631155683" name="Changes" comment="HomeWorks">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/01-variables/01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/01-variables/02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/01-variables/03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/01-variables/all.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/02-if-else-elseif/01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/02-if-else-elseif/02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/02-if-else-elseif/03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/02-if-else-elseif/04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/02-if-else-elseif/05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/02-if-else-elseif/06.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/02-if-else-elseif/07.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/02-if-else-elseif/all.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/03-array-object/01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/03-array-object/02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/03-array-object/03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/03-array-object/04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/03-array-object/05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/03-array-object/all.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/04-loops/01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/04-loops/02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/04-loops/03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/04-loops/04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/04-loops/05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/04-loops/all.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/05-functions/01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/05-functions/02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/05-functions/03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/05-functions/04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/05-functions/05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/05-functions/06.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/05-functions/07.1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/05-functions/07.2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/05-functions/07.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/05-functions/all.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/06-files/01.1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/06-files/01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/06-files/02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/06-files/03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/06-files/04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/06-files/05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/06-files/all.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/06-files/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/06-files/ex4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/06-files/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/06-files/include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/.idea/arithmetic-operations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/06.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/07.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/08.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/09.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/10.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/all.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/calculate-area.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arithmetic-operations/gravity-formula.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arrays/01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arrays/02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arrays/03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arrays/04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arrays/05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arrays/06.last.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arrays/06.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arrays/games/jk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arrays/games/rockPaperScisssors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arrays/games/slot_last.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arrays/games2/run.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/arrays/guessLetters_test2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/01.1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/03.0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/03.1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/05.1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/06.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/07.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/08.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/09.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/bank-account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/bj_test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/blackJack_janisKrastins.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/blackPeter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/blackjack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/energy-drinks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/les27.01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/my.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/slotClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/classes-and-objects/video-store.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/loops/01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/loops/02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basics/loops/all.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/buyer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/cart.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/items.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/working_v1.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/php-basics/arrays/05.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/basic/05-functions/07.2.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/php-basics/arrays/06.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="22uEGZLR4lMuel8TjsphQhfxne4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\color\Desktop\Codelex-PHP\php-basics\arrays\games" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\color\Desktop\Codelex-PHP\php-basics\arrays\games" />
+      <recent name="C:\Users\color\Desktop\Codelex-PHP\basic\06-files" />
+      <recent name="C:\Users\color\Desktop\Codelex-PHP\basic\05-functions" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="basic" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/basic" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.basic" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="035498b3-4202-494d-a949-269631155683" name="Changes" comment="" />
+      <created>1640678979111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640678979111</updated>
+      <workItem from="1640678980577" duration="218871000" />
+      <workItem from="1641490646199" duration="3320000" />
+      <workItem from="1641497995933" duration="1066000" />
+      <workItem from="1641529406430" duration="61050000" />
+      <workItem from="1641888308229" duration="41406000" />
+      <workItem from="1642692389689" duration="48812000" />
+      <workItem from="1643014755183" duration="58585000" />
+      <workItem from="1643445475794" duration="24701000" />
+      <workItem from="1643562440900" duration="34096000" />
+      <workItem from="1643711583846" duration="25021000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HomeWorks" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWorks" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php-basics/arrays/06.php</url>
+          <line>45</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php-basics/arrays/06.php</url>
+          <line>59</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
