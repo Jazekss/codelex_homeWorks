@@ -1,26 +1,23 @@
 <?php
 class Point
 {
-	public array $p1;
-	public array $p2;
-	public function __construct($p1, $p2){
-		$this->p1 = $p1;
-		$this->p2 = $p2;
+	public int $first;
+	public int $second;
+	public function __construct(int $first, int $second){
+		$this->first = $first;
+		$this->second = $second;
 	}
-	public function swapPoints($p1, $p2){
-		$p3 = '';
-		$p3 = $p1;
-		$p1 = $p2;
-		$p2 = $p3;
-		return $p1 . ", " . $p2;
+	public function swapPoints(Point $first, Point $second): void{
+		$temp1 = $first->first;
+		$temp2 = $first->second;
+		$first->first = $second->first;
+		$first->second = $second->second;
+		$second->first = $temp1;
+		$second->second = $temp2;
 	}
 }
 $p1 = new Point(5, 2);
 $p2 = new Point(-3, 6);
-$swap->swapPoints($p1, $p2);
-echo "P1 = ({$p1[0]}, {$p1[1]}) and P2 = ({$p2[0]}, {$p2[1]})\n";
-
-
-
-//$p11 = $swap->swapPoints($p1, $p2);
-//print_r($p11[0]);
+$p1->swapPoints($p1, $p2);
+echo "({$p1->first}, {$p1->second})\n";
+echo "({$p2->first}, {$p2->second})";
