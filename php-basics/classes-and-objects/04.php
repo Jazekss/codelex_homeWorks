@@ -4,43 +4,56 @@ class Movie
 	public string $title;
 	public string $studio;
 	public string $rating;
-	public function __constructor(string $title, string $studio, string $rating){
+	public function __construct( string $title, string $studio, string $rating){
 		$this->title = $title;
 		$this->studio = $studio;
 		$this->rating = $rating;
 	}
-	public function GetPG(): void {
-
-	}
 }
 class Movies
 {
-	public array $movies = [];
-	public function addMovie(Movie $movie): void{
+	private array $movies = [];
+	public function addMovie(Movie $movie){
 		$this->movies[] = $movie;
 	}
-	public function GetPG(){
-		return $this->movies;
+	public function getMovie(): mixed{
+		$movie = '';
+		foreach ($this->movies as $movie){
+			$movie = "Title: {$this->title} |Studio:{$this->studio} [PG:{$this->rating}]";
+		}
+		return $movie;
+	}
+	public function getPG(string $find): array{
+		$result = [];
+		foreach ($this->movies as $movie) {
+			if ($movie->rating == $find) {
+				$result[] = $movie;
+			}
+		}
+	return $result;
 	}
 }
-$a = new Movie('','','');
 $movies = new Movies();
-$casino = new Movie('Casino Royale', 'Eon Productions', 'PG­13');
+$casino = new Movie("Casino Royale", "Eon Productions", "PG13");
 $movies->addMovie($casino);
-$glass = new Movie('Glass', 'Buena Vista International', 'PG­13');
-$movies = new Movies($glass);
-$spider = new Movie('Spider-Man: Into the Spider-Verse', 'Columbia Pictures', 'PG');
-$movies = new Movies($spider);
-
-var_dump($movies->GetPG());
-
-
-
-
-//Write a method GetPG, which takes an array of base type Movie as its argument,
-//	and returns a new array of only those movies in the input array with a rating of "PG".
-//	You may assume the input array is full of Movie instances. The returned array may be empty.
-
-//“Casino Royale”, “Eon Productions” - “PG­13”;
-//“Glass”, “Buena Vista International” - “PG­13”;
+$glass = new Movie("Glass", "Buena Vista International", "PG13");
+$movies->addMovie($glass);
+$spider = new Movie("Spider-Man: Into the Spider-Verse", "Columbia Pictures", "PG");
+$movies->addMovie($spider);
+$godfather = new Movie("The Godfather", "Paramount", "R");
+$movies->addMovie($godfather);
+$darkKnight = new Movie("The Dark Knight", "Pinewood Studios", "PG13");
+$movies->addMovie($darkKnight);
+$intouchables = new Movie("The Intouchables", "Gaumont TF1 Films", "R");
+$movies->addMovie($intouchables);
+echo "\nAvailable searches: PG13, PG, R\n";
+$find = readline('Find: ');
+echo "Search results for [{$find}]: \n";
+$i = 1;
+foreach ($movies->getPG($find) as $movie) {
+	echo "  [$i] Title: {$movie->title}, Studio:{$movie->studio}]\n";
+	$i++;
+}
+//“Casino Royale”, “Eon Productions” - “PG13”;
+//“Glass”, “Buena Vista International” - “PG13”;
 //“Spider-Man: Into the Spider-Verse”, “Columbia Pictures” - “PG”.
