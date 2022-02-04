@@ -1,76 +1,64 @@
 <?php
-echo "Exercise #6: \n";
-$words = ['is'];//['orange',	'lemon', 'banana', 'grapes', 'peach', 'pineapple', 'papaya', 'mango'];
-$word = $words[array_rand($words)];
-$wordLength = strlen($word);
-$wordSplit = str_split($word);
+$words = ['fish', 'door', 'car', 'floor', 'china', 'spark', 'dark', 'tube', 'boy', 'girl', 'nose', 'bar', 'fool', 'house'];
+shuffle($words);
+$word = $words[0];
+$letters = str_split($word);
 $attempts = 5;
-$enteredLetters = [];
-$hidden = [];
-$lettersTryed = [];
-
-$wordHideFirst = str_repeat('_', strlen($word));
-// Split word in to letters
-for ($s = 0; $s <= strlen($word)-1; $s++){
-	$wordSplit = str_split($word);
+$displayedLetters = []; // Noslēptais vārds par _
+$guessed = []; // Saglabā gan pareizos, gan nepareizos burtus
+$guessedWrong[] = ""; // Saglaba nepareizos burtus
+/** Aizstāj katru burtu ar '_' */
+foreach ($letters as $letter) {
+	$displayedLetters[] = '_';
 }
-// Replace each letter with underscore
-for ($i = 0; $i <= strlen($word)-1; $i++) {
-	$wordHide = str_split($word);
-	$wordHide = str_repeat('_', strlen($word));
-	$wordHide = str_split($wordHide);
-}
-// Iterate trought word and check if letters match
-for ($w = 0; $w <= $wordLength-1; $w++) {
-	if ($lettersTryed == $word[$w]) {
-		$enteredLetters[$w] = $lettersTryed;
-		$wordHide[$w] = $enteredLetters[$w];
-		$hidden[$w] = $lettersTryed;
-		$wrongGuess = false;
-	}
-}
-
-echo "DEV: hidden word: {$word} (" . $wordLength . " letters)\n";
-//Start of word guessing frame
-echo "\n\e[0;35m╭––––––––––––––––┄┈\e[0m\n";
-echo "\e[0;35m│\e[0m \e[1;35mGuess the word!\e[0m\n";
-echo "\e[0;35m│\e[0m ✎ {$wordHideFirst}";
-echo "\n\e[0;35m│\e[0m \e[1;35mYou have {$attempts} attempts\e[0m\n";
-echo "\e[0;35m╰––––––––––––––––┄┈\e[0m\n";
-//End of word guessing frame
-echo "\e[0;35m╭––––––––––––––––┄┈\e[0m\n";
-echo $lettersTryed = readline("\e[0;35m│\e[0m \e[1;32mLet's try: ") . "\e[0m";
-
+$wrong = false;
 while (true) {
-	echo "DEV: hidden word: {$word}\n";
-	//Start of word guessing frame
-	echo "\n\e[0;35m╭––––––––––––––––┄┈\e[0m\n";
-	echo "\e[0;35m│\e[0m \e[1;35mGuess the word!\e[0m\n";
-	echo "\e[0;35m│\e[0m ✎  ";
-	for ($l = 0; $l <= $wordLength - 1; $l++) {
-		echo $hidden[$l] . " ";
+	echo "DEV: hidden word: {$word}\n"; /** DEV line */
+	/** Slēptais vārds uz String izvadei uz ekrāna kā '_ _ _ _' */
+	$displayedWord = implode(' ', $displayedLetters);
+	echo "\n\e[0;35m╭––––––––––––––––––┄┈\e[0m\n";
+	echo "\e[0;35m│\e[0m \e[0;35mGuess the word!\e[0m\n";
+	echo "\e[0;35m│ ✎  \e[0m \e[1;35m{$displayedWord}\e[0m\n";
+	/** Pārbauda, ja '_' vairs nav palikšas, tad ir uzvara */
+	if (strpos($displayedWord, '_') === false) { // WON
+		echo "\e[0;35m├––––––––––––––––––┄┈\e[0m\n";
+		echo "\e[0;35m│\e[0m \e[1;32mCONGRATULATIONS!!!\e[0m\n";
+		echo "\e[0;35m╰––––––––––––––––––┄┈\e[0m\n";
+		break;
 	}
-	if ($lettersTryed !== $word[$w]) {
-		$attempts -=  1;
-		$enteredLetters[] = $lettersTryed;
+	echo "\e[0;35m│\e[0m Attempts left: {$attempts}\n";
+	echo "\e[0;35m│\e[0m Letters tried: ";
+	foreach ($guessed as $letter) {
+		echo $letter . " ";
 	}
+	$guessed1 = implode($guessed);
+	echo "\n\e[0;35m├––––––––––––––––––┄┈\e[0m\n";
+	$guess = readline("\e[0;35m│\e[0m Guess a letter: ");
+	$guessed[] = $guess;
 
-	echo "\n\e[0;35m│\e[0m \e[1;35mYou have {$attempts} attempts\e[0m\n";
-	echo "\e[0;35m╰––––––––––––––––┄┈\e[0m\n";
-	//End of word guessing frame
-	echo "\e[0;35m╭––––––––––––––––┄┈\e[0m\n";
-	echo "\n";
-	echo $lettersTryed = readline("\e[0;35m│\e[0m \e[1;32mLet's try: ") . "\e[0m";
-	for ($w = 0; $w <= $wordLength-1; $w++) {
-		if ($lettersTryed === $word[$w]) {
-			$enteredLetters[$w] = $lettersTryed;
-			$wordHide[$w] = $enteredLetters[$w];
-			$hidden[$w] = $lettersTryed;
-			$wrongGuess = false;
-		}
-		if($attempts < 0){
-			echo "\n \e[0;31mSorry, You lose!\e[0m \n";
+	foreach ($letters as $index => $letter) {
+		if ($letter === $guess) {
+			$displayedLetters[$index] = $guess;
+			$attempts++;
+			$wrong = false;
 		}
 	}
-	echo "\n";
+	foreach ($letters as $index => $letter) {
+		if ($letter !== $guess) {
+			$wrong = true;
+		}
+	}
+	echo $wrong;
+	if($wrong == true){
+		$attempts--;
+	}
+	/** Ja mēģinājumi beidzas, spēle ir zaudēta */
+	if($attempts == 0) { // LOSE
+		// Neizdevās izdomāt kāpēc izlec kaut kāds '1' šajā vietā pēc zaudes
+		echo "\n\e[0;35m├––––––––––––––––––┄┈\e[0m\n";
+		echo "\e[0;35m│\e[0m \e[1;31mAttempts ended\e[0m\n";
+		echo "\e[0;35m│\e[0m \e[1;31mSorry, You lose!\e[0m\n";
+		echo "\e[0;35m╰––––––––––––––––––┄┈\e[0m\n";
+		exit;
+	}
 }
