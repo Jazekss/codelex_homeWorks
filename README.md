@@ -1,3 +1,8 @@
+# Kaut kas nestrādā :D
+
+### Šajā README failā
+
+
 # Its my Codelex homeworks
 
 ### [Basic](./https://github.com/Jazekss/codelex_homeWorks/tree/main/basic)
