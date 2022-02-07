@@ -138,7 +138,7 @@ Exercise: [03.1](https://github.com/Jazekss/codelex_homeWorks/blob/main/php-basi
 Exercise: [07](https://github.com/Jazekss/codelex_homeWorks/blob/main/php-basics/arithmetic-operations/07.php) \\
  Exercise: [08](https://github.com/Jazekss/codelex_homeWorks/blob/main/php-basics/arithmetic-operations/08.php) \\
  Exercise: [09](https://github.com/Jazekss/codelex_homeWorks/blob/main/php-basics/arithmetic-operations/09.php) \\
- Exercise: [10]( PROCESĀ ) \\
+ Exercise: [10] PROCESĀ  \\
  Exercise: [11](https://github.com/Jazekss/codelex_homeWorks/blob/main/php-basics/arithmetic-operations/11.php)
 
 Account: [PHP](https://github.com/Jazekss/codelex_homeWorks/blob/main/php-basics/arithmetic-operations/accounts.php) \\
