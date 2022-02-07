@@ -5,7 +5,7 @@
 
 # Its my Codelex homeworks
 
-### [Basic](./https://github.com/Jazekss/codelex_homeWorks/tree/main/basic)
+### [Basic](https://github.com/Jazekss/codelex_homeWorks/tree/main/basic)
 * [01-variables](./https://github.com/Jazekss/codelex_homeWorks/tree/main/basic/01-variables) 
 <--- -- -- -- -- -- -- -- -- - - - -   - -    -   - -    -    -
 
