@@ -1,0 +1,81 @@
+body {
+    width: 800px;
+    margin: auto;
+}
+table {
+    width: 100%;
+}
+th, td {
+    border: 1px solid rgba(49, 49, 49, 0.5);
+}
+tr {
+    height: 25px;
+}
+#titles {
+    height: 30px;
+    background: #e8e8e8;
+}
+#index {
+    width: 30px;
+}
+#index p {
+    padding: 5px 3px;
+    margin: 0;
+    color: rgba(47, 47, 47, 0.5)
+
+}
+#name {
+    width: 400px;
+}
+#name p {
+    padding: 5px 3px;
+    margin: 0;
+    float: left;
+}
+#regno {
+    width: 140px;
+}
+#regno {
+    width: 140px;
+}
+#regno p {
+    padding: 5px 3px;
+    margin: 0;
+    float: left;
+}
+#search_title{
+    margin: 5px auto 6px 10px;
+}
+form {
+    width: 440px;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+#search_field{
+    width: 165px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#search_button{
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#pagesButtons {
+    width: 40%;
+    height: 25px;
+    display: flex;
+    margin: 5px auto;
+}
+/*
+#pagesButtons p {
+  padding: 0;
+  margin: 1px 0 0 0;
+  float: left;
+}
+*/
+.dd_func {
+    border: 2px solid rgba(255, 0, 0, 0.3);
+    padding: 2px 5px;
+    background: rgba(169, 169, 169, 0.3);
+}
